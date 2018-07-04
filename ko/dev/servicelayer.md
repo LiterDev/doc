@@ -27,13 +27,17 @@ reactive 스타일의 non-blocking 서비스를 기반으로 추후 micro servie
   - java 1.8
   - boilerplate : spring boot 2.03
   - persistant : mongodb, spring data jpa
+  ```
+  * reactive 스타일의 non-blocking 을 지원하는 db(mongodb, redis, cassandra)중 echo system이 가장 잘 구축되어 있다고 생각되는 mongodb 선택
+  * cashing 처리나 영속성이 필요없는 data들은 후추 redis 도입 예정
+  ```
   - spring 5
   - jwt 기반 auth
   ```
   state less 한 auth 구축으로 추후 app(ios, android)에도 범용으로 사용가능하도록 구축
   accessToken : expired time (short), refreshable(O), 사용자 인증 토큰, 리뷰작성 수정 삭제 권한, refreshToken을 이용하여 재발금 가능
   refreshToken : expired time (long), refreshable(X), 인증토큰 재발행 토큰
-  walletToken : expired time (very short), refreshable(X), 지갑의 이체기능 시 사용
+  walletToken : expired time (very short), refreshable(X), 지갑의 이체기능 시 사용용
   ownerToken : expired time (very short), refreshable(X), 개인정보 열람 및 수정 시 사용
   ```
   - webflux
