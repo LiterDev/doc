@@ -1,9 +1,6 @@
 ### [1. service layer](https://github.com/LiterDev/doc/blob/master/ko/dev/servicelayer.md)
 
-### 2. contents layer
-#### - aws : s3, mongodb
-#### - IPFS : test
-#### - road map
+### [2. contents layer](https://github.com/LiterDev/doc/blob/master/ko/dev/contentslayer.md)
 
 ### 3. blockchain layer
 #### - why EOS?
