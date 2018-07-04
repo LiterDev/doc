@@ -25,7 +25,7 @@ reactive 스타일의 non-blocking 서비스를 기반으로 추후 micro servie
 
   - `spring boot` 기반의 REST API
   - java 1.8
-  - boilerplate : spring boot 2.03
+  - boilerplate : spring boot 2.0.3
   - persistent : mongodb, spring data jpa
   
     * reactive 스타일의 non-blocking 을 지원하는 db(mongodb, redis, cassandra)중 echo system이 가장 잘 구축되어 있다고 생각되는 mongodb 선택
@@ -52,5 +52,16 @@ Liter 플랫폼에서 EOS기반의 블록체인과 통신하기 위한 api layer
   - java 1.8
   - boilerplate : spring boot 2.03
   - cleos의 일부 기능을 대체
+    * wallet create
+    * wallet import
+    * account create
+    * get chain info
+    * push transactoin 
+    * get transactions
+    * get table rows
+    * get currency balance
+    * abi json to bin
+    * get code
+
   - 보안이슈 점검 필요
 
