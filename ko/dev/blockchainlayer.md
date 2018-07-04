@@ -3,7 +3,9 @@ Liter 플랫폼의 블록체인 레이어에 대한 기술 문서 입니다 구�
 
   - Why EOS?
   - smart contract layer
+  - node 운영 방안
   - BP 선정 및 운영
+  - 보안조치
   - road map
 
 ## Why EOS?
@@ -20,6 +22,12 @@ Liter 는 초기 블록체인 node를 EOS 기반으로 개발 및 운영을 하�
 [graphene](https://objectcomputing.com/resources/publications/sett/march-2017-graphene-an-open-source-blockchain) 기반으로 자체 블록체인을 개발하기로 결정함
 
 ### EOS DAWN 3.0 의 등장
+  
+  1. bios contract을 통하여 블록생성 과 블록체인의 운영 정책을 분리함
+  2. 0.5초의 블록생성 시간
 
+[1]의 조치로 인하여 블록체인의 대부분의 정책 수정이 hard fork 없이 가능하게 되었고 이는 Liter 블록체인에서 정의하였던 core contract 와 application contract의 분리 구조와 매우 유사한 구조를 가지게 되었다. 
+[2]는 실제 사용자들의 반응을 fail over 없이 온체인에 기록 할 수 있도록 가능하게 되었고 실제 중앙화 된 서비스와 트랜젝션 차이가 무의미 할 정도의 속도라고 판단 되었다
 
+#### EOS의 DPOS 방식, 빠른 트랜젝션, 자체 노드운영의 용이함 떄문에 초기 서비스를 위한 최적화된 블록체인이라는 결론에 도달하였다 
 
