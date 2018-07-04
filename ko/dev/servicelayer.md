@@ -26,7 +26,7 @@ reactive 스타일의 non-blocking 서비스를 기반으로 추후 micro servie
   - `spring boot` 기반의 REST API
   - java 1.8
   - boilerplate : spring boot 2.03
-  - persistant : mongodb, spring data jpa
+  - persistent : mongodb, spring data jpa
   
     * reactive 스타일의 non-blocking 을 지원하는 db(mongodb, redis, cassandra)중 echo system이 가장 잘 구축되어 있다고 생각되는 mongodb 선택
     * cashing 처리나 영속성이 필요없는 data들은 후추 redis 도입 예정
