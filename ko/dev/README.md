@@ -3,8 +3,4 @@
 ### [2. contents layer](https://github.com/LiterDev/doc/blob/master/ko/dev/contentslayer.md)
 
 ### 3. blockchain layer
-#### - why EOS?
-#### - smart contract layer
-#### - bp list
-#### - road map   
 
