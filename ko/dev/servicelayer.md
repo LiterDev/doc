@@ -34,8 +34,8 @@ reactive 스타일의 non-blocking 서비스를 기반으로 추후 micro servie
 Liter 플랫폼에서 EOS기반의 블록체인과 통신하기 위한 api layer 입니다
 아래의 자료들을 참조하여 java기반의 web api 모듈로 재구성 하였습니다
 ```
-참조 1 : link [Heading link](https://github.com/plactal/EosCommander "Practal EOS commander")
-참조 2 : https://github.com/EOSIO/eosjs
+참조 1 : [Plactal EosCommander](https://github.com/plactal/EosCommander, "Plactal EosCommander")
+참조 2 : [eosjs](https://github.com/EOSIO/eosjs, "eosjs")
 ```
   - `spring boot` 기반의 REST API
   - java 1.8
