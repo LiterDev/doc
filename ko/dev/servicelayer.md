@@ -33,9 +33,10 @@ reactive 스타일의 non-blocking 서비스를 기반으로 추후 micro servie
 ## blockchain rpc api
 Liter 플랫폼에서 EOS기반의 블록체인과 통신하기 위한 api layer 입니다
 아래의 자료들을 참조하여 java기반의 web api 모듈로 재구성 하였습니다
+```
 참조 1 : https://github.com/plactal/EosCommander
 참조 2 : https://github.com/EOSIO/eosjs
-
+```
   - `spring boot` 기반의 REST API
   - java 1.8
   - boilerplate : spring boot 2.03
