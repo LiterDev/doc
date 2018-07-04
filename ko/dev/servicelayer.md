@@ -27,13 +27,11 @@ reactive 스타일의 non-blocking 서비스를 기반으로 추후 micro servie
   - java 1.8
   - boilerplate : spring boot 2.0.3
   - persistent : mongodb, spring data jpa
-  
     * reactive 스타일의 non-blocking 을 지원하는 db(mongodb, redis, cassandra)중 reference가 가장 풍부하다고 판단되는 mongodb 선택
     * cashing 처리나 영속성이 필요없는 data들은 후추 redis 도입 예정
   
   - spring 5
   - jwt 기반 auth
-  
     * state less 한 auth 구축으로 추후 app(ios, android)에도 범용으로 사용가능하도록 구축
     * accessToken : expired time (short), refreshable(O), 사용자 인증 토큰, 리뷰작성 수정 삭제 권한, refreshToken을 이용하여 재발급 가능
     * refreshToken : expired time (long), refreshable(X), 인증토큰 재발행 토큰
@@ -41,6 +39,11 @@ reactive 스타일의 non-blocking 서비스를 기반으로 추후 micro servie
     * ownerToken : expired time (very short), refreshable(X), 개인정보 열람 및 수정 시 사용
   
   - webflux
+    * spring 5부터 본격적으로 지원
+    * reactive 스타일의 non-blocking 지원
+    * functional endpoint : 기존의 dispatcher servlet을 사용하지 않고 netty 기반의 functional router 사용
+    * reactive 환경에서 transaction 처리를 고려한 domain 설계 필요
+    * test환경 구축이 용이함
 
 
 ## blockchain rpc api
