@@ -1,5 +1,5 @@
 ## service layer
-Liter 플랫폼의 서비스레이어에 대한 기술 문서 입니다 구성은 다음과 같습니다.
+Liter 플랫폼의 서비스 레이어에 대한 기술 문서 입니다 구성은 다음과 같습니다.
 
   - web client
   - web api
