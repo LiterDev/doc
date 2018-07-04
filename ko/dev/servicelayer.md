@@ -50,7 +50,7 @@ Liter 플랫폼에서 EOS기반의 블록체인과 통신하기 위한 api layer
 
   - `spring boot` 기반의 REST API
   - java 1.8
-  - boilerplate : spring boot 2.03
+  - boilerplate : spring boot 2.0.3
   - cleos의 일부 기능을 대체
     * wallet create
     * wallet import
