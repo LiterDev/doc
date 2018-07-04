@@ -14,8 +14,8 @@ Liter 플랫폼의 web client를 담당하는 layer입니다.
 추후 웹소켓 등을 이용한 양방향 바인딩에 최적화 되어있는 web client를 구축하는 것이 목적 입니다.
 
   - `react` 기반의 SPA
-  - reat version : 16.4
-  - redux
+  - react version : 16.4
+  - redux, redux saga
   - boilerplate : gatsby 2
 
 ## [web api](https://github.com/LiterDev/liter-web-api)
