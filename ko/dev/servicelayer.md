@@ -22,13 +22,13 @@ Liter 플랫폼의 web client를 담당하는 layer입니다.
 Liter 플랫폼의 web api를 담당하는 server layer 입니다
 Sprin Boot 5의 webflux 기반 functional endpoint 형태로 구성되어있습니다
 reactive 스타일의 non-blocking 서비스를 기반으로 추후 micro servie 적용이 용이하도록 구축하는 것이 목적 입니다.
-
+```
   - `spring boot` 기반의 REST API
   - java 1.8
   - boilerplate : spring boot 2.03
   - persistant : mongodb, spring data jpa
   - spring 5
-
+```
 
 ## blockchain rpc api
 Liter 플랫폼에서 EOS기반의 블록체인과 통신하기 위한 api layer 입니다
@@ -36,10 +36,10 @@ Liter 플랫폼에서 EOS기반의 블록체인과 통신하기 위한 api layer
 
   - 참조 1 : [Plactal EosCommander](https://github.com/plactal/EosCommander, "Plactal EosCommander")
   - 참조 2 : [eosjs](https://github.com/EOSIO/eosjs, "eosjs")
-
+```
   - `spring boot` 기반의 REST API
   - java 1.8
   - boilerplate : spring boot 2.03
   - cleos의 일부 기능을 대체
   - 보안이슈 점검 필요
-
+```
