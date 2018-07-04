@@ -10,7 +10,7 @@ Liter 플랫폼의 서비스레이어에 대한 기술 문서 입니다 구성�
 
 ## web client
 Liter 플랫폼의 web client를 담당하는 layer입니다.
-확장성과 echo system을 검토한 결과 react가 적절하다고 판단되었습니다.
+확장성과 reference를 검토한 결과 react가 적절하다고 판단되었습니다.
 추후 웹소켓 등을 이용한 양방향 바인딩에 최적화 되어있는 web client를 구축하는 것이 목적 입니다.
 
   - `react` 기반의 SPA
@@ -28,7 +28,7 @@ reactive 스타일의 non-blocking 서비스를 기반으로 추후 micro servie
   - boilerplate : spring boot 2.0.3
   - persistent : mongodb, spring data jpa
   
-    * reactive 스타일의 non-blocking 을 지원하는 db(mongodb, redis, cassandra)중 echo system이 가장 잘 구축되어 있다고 생각되는 mongodb 선택
+    * reactive 스타일의 non-blocking 을 지원하는 db(mongodb, redis, cassandra)중 reference가 가장 풍부하다고 판단되는 mongodb 선택
     * cashing 처리나 영속성이 필요없는 data들은 후추 redis 도입 예정
   
   - spring 5
