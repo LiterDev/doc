@@ -29,5 +29,53 @@ Liter 는 초기 블록체인 node를 EOS 기반으로 개발 및 운영을 하�
 [1]의 조치로 인하여 블록체인의 대부분의 정책 수정이 hard fork 없이 가능하게 되었고 이는 Liter 블록체인에서 정의하였던 core contract 와 application contract의 분리 구조와 매우 유사한 구조를 가지게 되었다. 
 [2]는 실제 사용자들의 반응을 fail over 없이 온체인에 기록 할 수 있도록 가능하게 되었고 실제 중앙화 된 서비스와 트랜젝션 차이가 무의미 할 정도의 속도라고 판단 되었다
 
-#### EOS의 DPOS 방식, 빠른 트랜젝션, 자체 노드운영의 용이함 떄문에 초기 서비스를 위한 최적화된 블록체인이라는 결론에 도달하였다 
+#### EOS의 DPOS 방식, 빠른 트랜젝션, 자체 노드운영의 용이함 떄문에 초기 서비스를 위한 최적화된 블록체인으로 판단되어 도압을 결정 하였다.
 
+## smart contract layer
+EOS를 이용한 자체 node 운영 시 개발 및 배포해야할 smart contract 목록 및 정의
+
+  - bios contract : EOS의 core contract 중 Liter에 필요한 기능들을 선별적으로 배포
+    * eosio.token : token 발행 및 전송 기능
+    * eosio.msig : multi signature 를 위한 기능
+    * eosio.system : eos node의 정책 기능 (BP설정, 램자원 관리등)
+
+  - Liter application contract
+    * 리뷰 : 리뷰 생성시 해당 정보를 Persistence API 를 이용하여 기록
+      - create : 리뷰생성 및 정보 기록
+      - update : 리뷰수정시 수정일시 누적 기록
+      - add like : like 기록 및 count ++
+      - sub like : like 철회 기록 및 count --
+      - add report : 신고 기록 및 count ++
+      - sub report : 신고 철회 기록 및 count --
+      - lock : 리뷰의 모든 기능 lock
+      - unlock : 리뷰의 모든 기능 unlock
+      - isClaim : 보상여부 기록 및 상태 업데이트
+
+    * 반응 : 사용자 반응을 기록
+      - add like : like 기록 
+      - sub like : like 철회 기록 
+      - add report : 신고 기록
+      - sub report : 신고 철회 기록
+
+      
+    * 평가/보상 : 리뷰와 반응 결과에 의해 평가 및 보상을 지급
+      - review claim : 리뷰어가 보상 요청 시 보상 지급처리
+      - engagement claim : 반응자가 보상 요청 시 보상 지급 처리
+      - lock review
+      - unlock review
+      - isClaim	review
+
+    * Liter Coin : Liter 의 유동자산관련 contract 작성
+      - issue : 입금된 LiterCube 를 정해진 비율에 의해 LiterCoin 으로 요청자에게 발행
+      - transfer : 전송기능 (min 금액 설정여부 검토)
+      - lock
+      - unlock
+
+
+    * Liter Cube : 부동자산으로서의 Liter token contract 작성 필요
+      - create : 초기 생성
+      - issue : 발행 멀티 시그를 이용하여 BP와 Liter wallet owner 가 전부 동의해야 가능하도록 구현
+      - transfer : 전송 Liter wallet owner 만 가능
+      - 실제 LiterCube 는 부동자산이지만 보상 지급시 발행 또는 전송 기능이 필요하다 보안상 무한 발행 이슈를 막기 위하여 한정된 자원안에서 전송기능을 사용하도록 한다
+      
+     
