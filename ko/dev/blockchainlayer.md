@@ -66,7 +66,7 @@ EOS를 이용한 자체 node 운영 시 개발 및 배포해야할 smart contrac
       - isClaim	review
 
     * Liter Coin : Liter 의 유동자산관련 contract 작성
-      - issue : 입금된 LiterCube 를 정해진 비율에 의해 LiterCoin 으로 요청자에게 발행
+      - issue : 입금된 LiterCube 를 정해진 비율에 의해 LiterCoin 으로 요청자에게 발행 (Liter wallet owner 와 요청 user 의 multi sig 로 작성 검토)
       - transfer : 전송기능 (min 금액 설정여부 검토)
       - lock
       - unlock
