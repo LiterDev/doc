@@ -19,7 +19,7 @@ Liter 는 초기 블록체인 node를 EOS 기반으로 개발 및 운영을 하�
   4. core contract 영역과 application contract 영역을 분리 할 것
 
 상기의 조건을 토대로 [1], [2] 번 항목을 만족 시키기 위해서는 DPOS방식이 적합하다는 결론을 내고 실제 서비스 되고있는 bitshare 와 steemit에서 사용된 
-[graphene](https://objectcomputing.com/resources/publications/sett/march-2017-graphene-an-open-source-blockchain) 기반으로 자체 블록체인을 개발하기로 결정함
+[graphene](https://objectcomputing.com/resources/publications/sett/march-2017-graphene-an-open-source-blockchain) 기반으로 자체 블록체인을 개발하기로 잠정 결정후 타 블록체인에 대한 리서치 시작
 
 ### EOS DAWN 3.0 의 등장
   
