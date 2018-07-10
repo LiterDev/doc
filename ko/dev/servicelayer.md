@@ -16,7 +16,7 @@ Liter 플랫폼의 web client를 담당하는 layer입니다.
   - `react` 기반의 SPA
   - react version : 16.4
   - redux, redux saga
-  - boilerplate : gatsby 2
+  - boilerplate : next.js
 
 ## [web api](https://github.com/LiterDev/liter-web-api)
 Liter 플랫폼의 web api를 담당하는 server layer 입니다
