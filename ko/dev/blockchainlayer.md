@@ -78,4 +78,6 @@ EOS를 이용한 자체 node 운영 시 개발 및 배포해야할 smart contrac
       - transfer : 전송 Liter wallet owner 만 가능
       - 실제 LiterCube 는 부동자산이지만 보상 지급시 발행 또는 전송 기능이 필요하다 보안상 무한 발행 이슈를 막기 위하여 한정된 자원안에서 전송기능을 사용하도록 한다
       
-     
+### node 운영 방안     
+  - 초기에는 EOS BIOS Boot Sequence 를 기준으로 자체 node를 운영한다
+  - 초기 BP 선정은 Liter 에서 정의하고 생태계의 규모와 안정도에 따라 점차 탈중앙화된 방식으로 이관한다 
