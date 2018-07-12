@@ -35,16 +35,16 @@ Liter 는 초기 블록체인 node를 EOS 기반으로 개발 및 운영을 하�
 실제 블록체인에 기록되어 영속성을 유지해야하는 데이터
 
   - 기준
-   * 신뢰를 필요로 하는 데이터 인가
-   * 투명성을 가지고 공개되어야 하는가
-   * 세대를 거처 전달되어야 하는 가치를 담고 있는가?
+    * 신뢰를 필요로 하는 데이터 인가
+    * 투명성을 가지고 공개되어야 하는가
+    * 세대를 거처 전달되어야 하는 가치를 담고 있는가?
    
   - 항목
-   * Liter Cube transaction
-   * Liter Coin transaction
-   * Reivew 생성정보
-   * 반응 관련 transaction
-   * 평가/보상 관련 transaction
+    * Liter Cube transaction
+    * Liter Coin transaction
+    * Reivew 생성정보
+    * 반응 관련 transaction
+    * 평가/보상 관련 transaction
 
 ## smart contract layer
 EOS를 이용한 자체 node 운영 시 개발 및 배포해야할 smart contract 목록 및 정의
