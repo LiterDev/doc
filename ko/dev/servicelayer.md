@@ -27,7 +27,8 @@ reactive 스타일의 non-blocking 서비스를 기반으로 추후 micro servie
   - java 1.8
   - boilerplate : spring boot 2.0.3
   - persistent : mongodb, spring data jpa
-    * reactive 스타일의 non-blocking 을 지원하는 db(mongodb, redis, cassandra)중 reference가 가장 풍부하다고 판단되는 mongodb 선택
+    * 관계형 서비스를 위한 도메인들은 mysql을 사용한다
+    * 대량의 로그성 데이터 처리는 reactive 스타일의 non-blocking 을 지원하는 db(mongodb, redis, cassandra)중 reference가 가장 풍부하다고 판단되는 mongodb 선택
     * cashing 처리나 영속성이 필요없는 data들은 후추 redis 도입 예정
   
   - spring 5
@@ -48,6 +49,7 @@ reactive 스타일의 non-blocking 서비스를 기반으로 추후 micro servie
 
 ## blockchain rpc api
 Liter 플랫폼에서 EOS기반의 블록체인과 통신하기 위한 api layer 입니다
+자바기반의 웹 서비스를 하는 DAPP들에게 손쉽게 EOS node와 인터페이스가 가능하도록 제공하는 것을 목표로 합니다
 아래의 자료들을 참조하여 java기반의 web api 모듈로 재구성 하였습니다
 (참조 1 : [Plactal EosCommander](https://github.com/plactal/EosCommander), 참조 2 : [eosjs](https://github.com/EOSIO/eosjs))
 
