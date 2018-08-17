@@ -1,4 +1,3 @@
-<h1>LITER Project</h1>
-<h1>Blockchain Enabled Incentivized Review Reward Platform</h2>
+# LITER Project - Blockchain Enabled Incentivized Review Reward Platform
 
 Technical Whitepaper
