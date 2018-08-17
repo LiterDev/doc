@@ -1,4 +1,4 @@
-## blockchain layer
+# 블록체인 레이어
 Liter 플랫폼의 블록체인 레이어에 대한 기술 문서 입니다 구성은 다음과 같습니다.
 
   - Why EOS?
