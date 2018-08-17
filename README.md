@@ -10,7 +10,7 @@ Here is guide maps to technical whitepaper of LITER Project :
 3. [Contents Layer](https://github.com/LiterDev/doc/blob/master/en/dev/contentslayer_en.md)
 4. [Service Layer](https://github.com/LiterDev/doc/blob/master/en/dev/servicelayer_en.md)
 5. [Security Plan](https://github.com/LiterDev/doc/blob/master/en/dev/securityplan_en.md)
-6. [Abuing Policy](https://github.com/LiterDev/doc/blob/master/en/dev/policy.md)
+6. [Abuing Policy](https://github.com/LiterDev/doc/blob/master/en/dev/policy/abusing_en.md)
 
 
 # Resources
@@ -38,7 +38,7 @@ Here is guide maps to technical whitepaper of LITER Project :
 3. [컨텐츠 레이어](https://github.com/LiterDev/doc/blob/master/ko/dev/contentslayer.md)
 4. [서비스 레이어](https://github.com/LiterDev/doc/blob/master/ko/dev/servicelayer.md)
 5. [보안](https://github.com/LiterDev/doc/blob/master/ko/dev/securityplan.md)
-6. [신고정책](https://github.com/LiterDev/doc/blob/master/ko/dev/policy.md)
+6. [신고정책](https://github.com/LiterDev/doc/blob/master/ko/dev/policy/abusing.md)
 
 # 추가 정보
 1. [LITER 웹사이트](https://www.getliter.com/)
