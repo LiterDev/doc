@@ -30,7 +30,7 @@ Data that cannot be changed and is to be stored on blockchain
   - Irreversible Data in LITER
     * Liter Cube transaction
     * Liter Coin transaction
-    * Reivew 생성정보
+    * Reivew Generation Information
     * User response transaction
     * Reward transaction
 
