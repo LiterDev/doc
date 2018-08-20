@@ -34,4 +34,58 @@ Data that cannot be changed and is to be stored on blockchain
     * User response transaction
     * Reward transaction
 
-----------To Be Updated
+## Smart Contract Layer
+In case of developing LITER blockchain based on EOS blockchain, list of smart contracts and its definition
+
+  - bios contract : Distribute selected core contracts of EOS based on necessary functions of LITER platform
+    * eosio.token : token issuance and tranfer feature
+    * eosio.msig : multi signature feature
+    * eosio.system : eos node policy implementation (Setup BP, RAM resource management etc)
+
+  - Liter application contract
+    * Review : Using Persistence API, records review creation data
+      - create : create review and record data
+      - update : record modified date and cumulative data when review is modified
+      - add like : record like history & count++
+      - sub like : record cancel-like history & count--
+      - add report : record abusing report & count++
+      - sub report : record cancel-abusing-report & count--
+      - lock : lock all functions of review
+      - unlock : unlock all functions of review
+      - isClaim : record reward history and update reward status
+
+    * Engagement : record user engagement
+      - add like : record like 
+      - sub like : record cancel-like 
+      - add report : record abusing report
+      - sub report : record cancel-abusing-report
+
+      
+    * Evaluation/Reward : Evaluation based on review and engagement on the review, and distribution of reward accordingly
+      - review claim : distribute reward upon reviewer's claim request
+      - engagement claim : distribute reward upon engaged user's claim request
+      - lock review
+      - unlock review
+      - isClaim	review
+
+    * Liter Coin : Create constract of liquid asset (Liter)
+      - issue : transferred amount of LiterCube will be issued on requester's wallet with distinguished ratio. (concept of multi sig of Liter wallet owner and requester need to be developed)
+      - transfer : transaction feature (minimum transaction need to be determined)
+      - lock
+      - unlock
+
+
+    * Liter Cube : Create contract of fixed asset (Liter token)
+      - create : initial issuance
+      - issue : issuance multi sig requires the approval of BP and all Liter wallet owners to be performed
+      - transfer : transaction feature (Only Liter wallet owner can perform feature)
+      - LiterCube is a fixed asset, but it requires issuance or transaction feature to be distributed as a reward. To prevent from repeated issuance of LiterCube, LiterCube transaction feature must be perform with limited conditions.
+      
+## Node Operation Plan     
+Based on EOS blockchain operation policy, LITER ecosystem adds additional operation policies on applicable EOS blockchain operation policies. 
+
+  - Initially, LITER operates nodes based on EOS BIOS Boot Sequence.
+  - Initial BP will be defined by LITER; as the magnitude and stability of ecosystem expands, LITER internal node operation protocol transforms into decentralized node operation protocol sequentially.
+  - Transformation process will be executed sequenctially after concensus of ecosystem participants and ecosystem scenario test.
+  - Mainnet and Beta service will be operated simutaneously; internal and external bug fix on mainnet and LITER service wilㅣ applied. 
+  - EOS의 version freezing 
