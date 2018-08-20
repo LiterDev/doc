@@ -1,5 +1,13 @@
 # Blockchain Layer
-This is the core layer of LITER blockchain. This layer will record all LITER PATRON’s activities including responses, and manage everything related to LITER CUBE and LITER COIN or any other crypto currency that may be involved on the LITER ecosystem in the future. This layer will be constructed to match LITER ecosystem’s characteristics by comparing and analyzing concepts and hypotheses of smart contract based blockchains such as Ethereum or EOS.
+This document is a technical whitepaper of LITER platform - Blockchain Layer.
+Components of this document is the same as below:
+
+  - Why EOS?
+  - Smart Contract Layer
+  - Node Operation Plan
+  - BP Selection and Operation
+  - Security
+  - Road Map
 
 ## Why EOS?
 LITER will develop and operate blockchain nodes based on EOS after evaluation of suitability of LITER platform to EOS.
