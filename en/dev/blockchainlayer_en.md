@@ -87,5 +87,5 @@ Based on EOS blockchain operation policy, LITER ecosystem adds additional operat
   - Initially, LITER operates nodes based on EOS BIOS Boot Sequence.
   - Initial BP will be defined by LITER; as the magnitude and stability of ecosystem expands, LITER internal node operation protocol transforms into decentralized node operation protocol sequentially.
   - Transformation process will be executed sequenctially after concensus of ecosystem participants and ecosystem scenario test.
-  - Mainnet and Beta service will be operated simutaneously; internal and external bug fix on mainnet and LITER service wilㅣ applied. 
+  - Mainnet and Beta service will be operated simutaneously; internal and external bug fix on mainnet and LITER service will applied. 
   - EOS의 version freezing 
