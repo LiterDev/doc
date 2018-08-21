@@ -65,20 +65,20 @@
 	• Video similarity test	
 	• Hash number
 	• Machine Learning
-	• 변화패턴코드 인식기술 (위디랩
-	• 리뷰 최적화(http://victorykorea.tistory.com/48?category=236135)
-	• 사진, 글, 동영상, 사진, 글 패턴 비교 (글 사진 글 사진 글 동영상)
-	• 카테고리내 중요키워드 포함여부
+	• Video pattern recognition technology (widilab)
+	• Review optimization(http://victorykorea.tistory.com/48?category=236135)
+	• Image, text, video, image, text pattern comparison (text image text image text video)
+	• Inclusion of principal keyword of the selected category
 
-#### 방법
-	• 요구조건 미충족 알림기능
-	• 리뷰 업로드는 허용하되 규정 충족 여부 가이드 메뉴 제공
-	• 리뷰 등록 방지
-	• 규정 충족이 안되었을 경우에는 업로드 불가
-	• 리뷰 등록 방지 + 요구조건 미충족 알림기능
-	• 부분적 규정 충족 + 미충족 조건 알림 가이드 제공
-
-#### 벌칙
+#### Methods
+	• Alert unfulfilled initial requirement
+	• Allow review generation, but provide review generation requirement guide
+	• Prevent from review generation
+	• Invalid to generate review when initial requirement is not fulfilled
+	• Prevention from review generation + alert unfulfilled initial requirement
+	• Partially fulfilling initial requirements + alert unfulfilled requirements
+	
+#### Penalties
 	• 리뷰 삭제
 	• 등록 리뷰 삭제
 	• 보상 무효화
