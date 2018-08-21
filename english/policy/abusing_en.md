@@ -9,27 +9,27 @@
 
 #### Reviews which is applicable to following conditions:
 
-#### 1. 컨텐츠
+#### 1. Contents
  
-##### 1.1 사진
-	• A.I (ex. 스마트렌즈)
-	• 제품의 사진이 담기지 않은 경우
-	• 초점이 흐린 경우
-	• 사진 수 3개 미만인 경우
-	• 한 사진을 여러 리뷰에 올린 경우(해시값)
+##### 1.1 Image
+	• A.I (ex. Smart Lens)
+	• Image of the product or the service is not included
+	• Unidentifiably blurry image
+	• Less than three images
+	• Using the same image in multiple reviews(hash number)
     
-##### 1.2 글
-	• 성의 없는 경우 (100byte 미만)
-	• 해당 제품명이 한번도 안나온 경우
+##### 1.2 Text
+	• Unfulfiiling context (less than 100byte)
+	• Name of the product or the service is not mentioned in the review
     
-##### 1.3 동영상
-	• 동영상이 없는 경우
-	• 동일한 동영상을 여러 리뷰에 올린 경우(해시값)
+##### 1.3 Video
+	• Video is not uploaded
+	• Using the same video in multiple reivews (hash number)
     
-##### 1.4 카테고리
-	• 카테고리에 맞지 않은 제품을 올린 경우
-	• 사용하지 않은 제품 (시식, 체험 등)을 올린 경우
-	• 존재하지 않은 상품을 올린 경우(허위사실 유포)
+##### 1.4 Category
+	• Product or service does not fit to the selected category
+	• Review on unexperienced product or service
+	• Review on non-existing product or service
 
 #### 2. 사람
 ##### 2.1 성별
