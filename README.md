@@ -5,12 +5,12 @@ Welcome to the LITER source code repository! This repository is in purpose of sh
 LITER blockchain is being developed based on [EOSIO](https://github.com/LiterDev/eos)
 
 Here is guide maps to technical whitepaper of LITER Project : 
-1. [Decentralization](https://github.com/LiterDev/doc/blob/master/en/dev/decentralized_en.md)
-2. [Blockchain Layer](https://github.com/LiterDev/doc/blob/master/en/dev/blockchainlayer_en.md)
-3. [Contents Layer](https://github.com/LiterDev/doc/blob/master/en/dev/contentslayer_en.md)
-4. [Service Layer](https://github.com/LiterDev/doc/blob/master/en/dev/servicelayer_en.md)
-5. [Security Plan](https://github.com/LiterDev/doc/blob/master/en/dev/securityplan_en.md)
-6. [Abuing Policy](https://github.com/LiterDev/doc/blob/master/en/policy/abusing_en.md)
+1. [Decentralization](https://github.com/LiterDev/doc/blob/master/english/technical_whitepaper/decentralized_en.md)
+2. [Blockchain Layer](https://github.com/LiterDev/doc/blob/master/english/technical_whitepaper/blockchainlayer_en.md)
+3. [Contents Layer](https://github.com/LiterDev/doc/blob/master/english/technical_whitepaper/contentslayer_en.md)
+4. [Service Layer](https://github.com/LiterDev/doc/blob/master/english/technical_whitepaper/servicelayer_en.md)
+5. [Security Plan](https://github.com/LiterDev/doc/blob/master/english/technical_whitepaper/securityplan_en.md)
+6. [Abuing Policy](https://github.com/LiterDev/doc/blob/master/english/policy/abusing_en.md)
 
 
 # Resources
@@ -33,12 +33,12 @@ Here is guide maps to technical whitepaper of LITER Project :
 리터 블록체인은 [이오스](https://github.com/LiterDev/eos)기반으로 개발이 진행되고 있습니다.
 
 리터 프로젝트에 대한 기술백서 내용은 아래에서 확인하실 수 있습니다.
-1. [탈중앙화](https://github.com/LiterDev/doc/blob/master/ko/dev/decentralized.md)
-2. [블록체인 레이어](https://github.com/LiterDev/doc/blob/master/ko/dev/blockchainlayer.md)
-3. [컨텐츠 레이어](https://github.com/LiterDev/doc/blob/master/ko/dev/contentslayer.md)
-4. [서비스 레이어](https://github.com/LiterDev/doc/blob/master/ko/dev/servicelayer.md)
-5. [보안](https://github.com/LiterDev/doc/blob/master/ko/dev/securityplan.md)
-6. [신고정책](https://github.com/LiterDev/doc/blob/master/ko/policy/abusing.md)
+1. [탈중앙화](https://github.com/LiterDev/doc/blob/master/korean/technical_whitepaper/decentralized.md)
+2. [블록체인 레이어](https://github.com/LiterDev/doc/blob/master/korean/technical_whitepaper/blockchainlayer.md)
+3. [컨텐츠 레이어](https://github.com/LiterDev/doc/blob/master/korean/technical_whitepaper/contentslayer.md)
+4. [서비스 레이어](https://github.com/LiterDev/doc/blob/master/korean/technical_whitepaper/servicelayer.md)
+5. [보안](https://github.com/LiterDev/doc/blob/master/korean/technical_whitepaper/securityplan.md)
+6. [신고정책](https://github.com/LiterDev/doc/blob/master/korean/policy/abusing.md)
 
 # 추가 정보
 1. [LITER 웹사이트](https://www.getliter.com/)
