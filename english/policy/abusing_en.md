@@ -1,16 +1,15 @@
-# 신고정책
+# Abusing
+
+## Regulation to prevent from malicious actions which may ruin LITER ecosystem.
+
+### System Report Area
+### User Report Area
+
+Fake Review
+Reviews applicable to following categories:
 
 
-## LITER 생태계의 건전함을 해칠 요소를 제거하기 위해서 하는 행위
-
-### 시스템의 신고영역
-### 유저의 신고영역
-
-가짜리뷰
-다음 가짜리뷰의 종류에 해당하는 것
-
-
-### 가짜리뷰의 정의
+### Definition of Fake Review
 
 #### 1. 컨텐츠
  
