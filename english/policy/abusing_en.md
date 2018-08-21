@@ -111,11 +111,11 @@
 	• 너무많은 신고를 한 유저
 
 #### Methods
-	• 요구조건 충족 권유 알림 메세지
-	• 커뮤니티 발전을 위한 방향 안내
-	• 요구조건 충족 부분 의무 충족 권장
-	• 요구조건 충족시 인센티브
-	• 요구조건 불 충족시 불이익
+	• Alert message to fultill the initial requirement
+	• Provide guidance for developing community
+	• Encourage user to fultill the initial requirement
+	• Incentive for fulfilling initial requirement
+	• Penalty for unfulfilling initial requirement
 
 #### Penalties
 	• Invalidation of reward
