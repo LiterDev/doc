@@ -31,39 +31,39 @@
 	• Review on unexperienced product or service
 	• Review on non-existing product or service
 
-#### 2. 사람
-##### 2.1 성별
-	• 제품의 성별이 드러나지 않은 경우
-	• 성별에 맞지 않은 제품을 사용한 경우(ex.여성용품)
-	• 기존에 등록한 성별과 맞지 않은 제품을 올린 경우
+#### 2. User
+##### 2.1 Gender
+	• Undetermined gender on the gender-specific product
+	• Usage of unmatching gender-specific product(ex.feminine product)
+	• Review on unmatching gender-specific product
+	
+##### 2.2 Age
+	• Undetermined age on the age-specific product
+	• Usage of unmatching age-specific product (ex.layette)
 
-##### 2.2 연령
-	• 연령의 대상이 드러나지 않은 경우
-	• 연령에 맞지 않은 리뷰어가 사용한 경우(ex.유아제품)
+### Centralized Management System (Review)
 
-### 중앙화제어 (리뷰)
+#### Purpose
+##### System initially filters fake reviews, and prevent from fake review generation or request to modify the contents
 
-#### 목적
-##### 가짜리뷰를 시스템에서 선 처리하여 가짜리뷰를 색출해 내어 리뷰등록을 방지 하거나 내용의 수정을 요청함
+#### Stage
+	• Alert (Request to fulfill the initial requirement)
+	• Prevent (Fix the initial requirement for review generation) 
 
-#### 단계
-	• 알림 (기준충족 요청)
-	• 방지 (기준충족 강제) 
-
-#### 규칙
-##### 글자 
-	• 글자 수 100byte이상
-	• 표절, 내용유사도 비교 (Machine Learning)
-	• 형태소 분석 Machine Learning 
-##### 사진 
-	• 사진 수 3개 이상
-	• 업로드 사진 유사도 비교 (Hashing, Machine Learning)
-	• 해시값
+#### Rules
+##### Text
+	• Minimum number of text : More than 100byte
+	• Plagiarism and context similarity test(Machine Learning)
+	• Morpheme Analysis : Machine Learning 
+##### Image 
+	• Three images or more
+	• Image similarity test (Hashing, Machine Learning)
+	• Hash number
 	• Machine Learning
-##### 동영상(http://www.itworld.co.kr/print/54659)
-	• 동영상 업로드 1개 이상
-	• 업로드 동영상 유사도 비교
-	• 해시값
+##### Video(http://www.itworld.co.kr/print/54659)
+	• One video or more
+	• Video similarity test	
+	• Hash number
 	• Machine Learning
 	• 변화패턴코드 인식기술 (위디랩
 	• 리뷰 최적화(http://victorykorea.tistory.com/48?category=236135)
