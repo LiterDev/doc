@@ -1,4 +1,4 @@
-# Abusing
+# Abusing Policy
 
 ## Regulation to prevent from malicious actions which may ruin LITER ecosystem.
 
