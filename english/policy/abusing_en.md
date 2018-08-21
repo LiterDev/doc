@@ -129,25 +129,25 @@
 
 ### Decentralized Management System (Review)
 
-#### 목적
-##### 중앙화제어로 처리된 리뷰를 탈중앙화방식인 신고를 통해 올바른 리뷰생태계를 유지.
+#### Purpose
+##### Decentralized consensus methodology (abusing report) manages centrally processed reviews to maintain review ecosystem
 
-#### 신고 시나리오 
-	• 나와 다른 의견 
-	• 경쟁 업체의 고의적 신고
-	• 그냥 맘에 안드는 리뷰
-	• 주목을 받기 위한 가짜 리뷰를 신고 
-	• 저작권
+#### Reporting Scenario 
+	• Reporting opposite opinion 
+	• Intential report of competitor
+	• Uncongenial Review
+	• Fake review in purpose of getting attention 
+	• Copyrights
 
 
-### 탈중앙화제어 (사람)
+### Decentralized Management System (User)
 
-#### 신고 시나리오
-	• 작성자의 보상을 막기위해
-	• 신고 보상을 위한 신고
-	• 허위 계정
+#### Reporting Scenario
+	• Intentionally preventing reviewer's reward
+	• Intention to receive reporting reward
+	• Fake account
 
-#### 해결방법
-	• 심의 위원회 구성 (사람)
-	• 딥러닝 활용 => 신고 심사 봇 
+#### Solution
+	• Constitute Deliberation Committee(User)
+	• Deep Learning => Report Evaluation Bot 
 
