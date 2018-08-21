@@ -5,11 +5,9 @@
 ### System Report Area
 ### User Report Area
 
-Fake Review
-Reviews applicable to following categories:
-
-
 ### Definition of Fake Review
+
+#### Reviews which is applicable to following conditions:
 
 #### 1. 컨텐츠
  
