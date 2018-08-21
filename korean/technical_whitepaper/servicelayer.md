@@ -8,7 +8,7 @@ Liter 플랫폼의 서비스 레이어에 대한 기술 문서 입니다 구성�
   - oauth2 service (예정)
   - road map
 
-## web client
+## Web Client
 Liter 플랫폼의 web client를 담당하는 layer입니다.
 확장성과 reference를 검토한 결과 react가 적절하다고 판단되었습니다.
 추후 웹소켓 등을 이용한 양방향 바인딩에 최적화 되어있는 web client를 구축하는 것이 목적 입니다.
@@ -18,7 +18,7 @@ Liter 플랫폼의 web client를 담당하는 layer입니다.
   - redux, redux saga
   - boilerplate : next.js
 
-## [web api](https://github.com/LiterDev/liter-web-api)
+## [Web API](https://github.com/LiterDev/liter-web-api)
 Liter 플랫폼의 web api를 담당하는 server layer 입니다
 Spring Boot 5의 webflux 기반 functional endpoint 형태로 구성되어있습니다
 reactive 스타일의 non-blocking 서비스를 기반으로 추후 micro servie 적용이 용이하도록 구축하는 것이 목적 입니다.
@@ -47,7 +47,7 @@ reactive 스타일의 non-blocking 서비스를 기반으로 추후 micro servie
     * test환경 구축이 용이함
 
 
-## blockchain rpc api
+## Blockchain RPC API
 Liter 플랫폼에서 EOS기반의 블록체인과 통신하기 위한 api layer 입니다
 자바기반의 웹 서비스를 하는 DAPP들에게 손쉽게 EOS node와 인터페이스가 가능하도록 제공하는 것을 목표로 합니다
 아래의 자료들을 참조하여 java기반의 web api 모듈로 재구성 하였습니다
