@@ -100,15 +100,15 @@
 	• Prevent (Fix the initial requirement for review generation) 
 
 #### Rules
-	• 기간별 최소 리뷰 등록 수 
-	• 한달에 최소 1개 리뷰 등록 의무 
-	• 기간별 최소 반응 횟수
-	• 한달에 최소 10개 리뷰 반응 의무
-	• 기간별 최소 신고 횟수
-	• 한달에 최소 1개 리뷰 신고 의무
-	• 계정 청정 지표
-	• 기간별, 기간별 컨텐츠 평균 안받은 횟수 신고 기준치 이상
-	• 너무많은 신고를 한 유저
+	• Minimum number of review generation periodically 
+	• Minimum of one review generation per month 
+	• Minimum number of engagement periodically
+	• Minimum of ten engagement per month
+	• Minimum number of abusing report periodically
+	• Minimum of one abusing report per month
+	• Account Reliability Index
+	• Average number of abusing reports received by a certain user exceeds the average number of overall abusing reports received in a certain period
+	• User sends overfull number of abusing report
 
 #### Methods
 	• Alert message to fultill the initial requirement
