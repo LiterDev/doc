@@ -41,7 +41,7 @@ Here is guide maps to technical whitepaper of LITER Project :
 6. [신고정책](https://github.com/LiterDev/doc/blob/master/korean/policy/abusing.md)
 
 # 추가 정보
-1. [LITER 웹사이트](https://www.getliter.com/)
+1. [LITER 웹사이트](https://www.getliter.com/?lang=ko)
 2. [LITER 블로그](https://www.medium.com/liter-project)
 3. [LITER 텔레그램 채팅방](https://t.me/literofficialchat)
 4. [LITER 텔레그램 공지방](https://t.me/literofficial)
