@@ -79,28 +79,27 @@
 	• Partially fulfilling initial requirements + alert unfulfilled requirements
 	
 #### Penalties
-	• 리뷰 삭제
-	• 등록 리뷰 삭제
-	• 보상 무효화
-	• 등록 리뷰에 대한 보상 제거 (100%)
-	• 보상 감소
-	• 신고 횟수 만큼 보상 제거 ( 1신고 당 0.75     1 LTR * 0.75 )
-	• 보상 페널티
-	• 미래에 등록될 리뷰에 대한 보상 무효화, 감소
-	• 리뷰 작성 제한
-	• 리뷰 작성 기간 제한, 기간별 최대 등록 횟수 제한 
-	• 리포팅 당한 횟수에 따라서 (12 / 8 / 4/ 2/ 1)
+	• Delete Review
+	• Invalidation of reward
+	• Removal of reward on registered review (100%)
+	• Reduction of reward
+	• Removal of reward per report ( 0.75 per report   1 LTR * 0.75 )
+	• Reward penalty
+	• Invalidation or reduction of reward on further review
+	• Limited review generation
+	• Limit the number of review creation during a ceratin period 
+	• Limitation applies depending on the number of report received (12 / 8 / 4/ 2/ 1)
 
 
-### 중앙화제어 (사람)
-#### 목적
-##### 불량한 유저를 색출하여 잘못된 리뷰의 등록 및 LITER생태계의 건전함을 지키기 위함
+### Centralized Management System (User)
+#### Purpose
+##### System filters malicious users who may ruin LITER ecosystem.
 
-#### 단계
-	• 알림 (기준충족 요청)
-	• 방지 (기준충족 강제) 
+#### Stage
+	• Alert (Request to fulfill the initial requirement)
+	• Prevent (Fix the initial requirement for review generation) 
 
-#### 규칙
+#### Rules
 	• 기간별 최소 리뷰 등록 수 
 	• 한달에 최소 1개 리뷰 등록 의무 
 	• 기간별 최소 반응 횟수
@@ -111,24 +110,24 @@
 	• 기간별, 기간별 컨텐츠 평균 안받은 횟수 신고 기준치 이상
 	• 너무많은 신고를 한 유저
 
-#### 방법
+#### Methods
 	• 요구조건 충족 권유 알림 메세지
 	• 커뮤니티 발전을 위한 방향 안내
 	• 요구조건 충족 부분 의무 충족 권장
 	• 요구조건 충족시 인센티브
 	• 요구조건 불 충족시 불이익
 
-#### 벌칙
-	• 보상 무효화
-	• 등록 리뷰에 대한 보상 제거
-	• 보상 페널티
-	• 미래에 등록될 리뷰에 대한 보상 무효화, 신고 건 바로 뒤의 글은 보상 25% 회수
-	• 리뷰 작성 제한
-	• 리뷰 작성 기간 제한 (1주일) , 기간별 최대 등록 횟수 제한 (한달 최대 2건)
-	• 활동 제한
-	• LITER생태계 활동 제한 (글작성수 제한, 보팅 횟수 제한)
+#### Penalties
+	• Invalidation of reward
+	• Removal of reward on registered review
+	• Reward penalty
+	• Invalidation of reward on further review, the first review generated after receiving reports provide 25% reduced reward
+	• Limit Review Generation
+	• Limit the review creation during a ceratin period (a week), Limit the number of review creation (twice a month)
+	• Limit activity
+	• Limit activity in LITER (Limit review generation, limit voting)
 
-### 탈중앙화제어 (리뷰)
+### Decentralized Management System (Review)
 
 #### 목적
 ##### 중앙화제어로 처리된 리뷰를 탈중앙화방식인 신고를 통해 올바른 리뷰생태계를 유지.
