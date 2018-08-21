@@ -28,7 +28,7 @@
 	- Cold wallet multi sig 처리	
 	  - Eos 기반 multi sig 처리
 	  - 3by2 형태로 출금 가능하도록 개발
-	  - 각 키는 founder 3명이 보관한다
+	  - 각 키는 founder 2명이 보관한다
 
 ## 인프라보안
   - Liter플랫폼의 서버 보안관련	
