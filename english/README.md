@@ -10,6 +10,6 @@ technical_whitepaper
 5. [Security Plan](https://github.com/LiterDev/doc/blob/master/english/technical_whitepaper/securityplan_en.md)
 
 policy
-6. [Abuing Policy](https://github.com/LiterDev/doc/blob/master/english/policy/abusing_en.md)
+1. [Abuing Policy](https://github.com/LiterDev/doc/blob/master/english/policy/abusing_en.md)
 
 To inquire about regarding technical whitepaper or operation policy, please email to info@getliter.com
