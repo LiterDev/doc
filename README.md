@@ -51,6 +51,6 @@ Here is guide maps to technical whitepaper of LITER Project :
 5. [LITER 트위터](https://www.twitter.com/liter-project)
 6. [백서](https://s3-ap-northeast-1.amazonaws.com/liter-ico-resorce/assets/pdf/whitepaper_kor.pdf)
 
-리터 프로젝트에 대한 궁금하신 점은 info@getliter.com으로 문의바랍니다.
+#### 리터 프로젝트에 대한 궁금하신 점은 info@getliter.com으로 문의바랍니다.
 
-<br><br>
+<br>
