@@ -12,4 +12,4 @@ technical_whitepaper
 policy
 1. [Abuing Policy](https://github.com/LiterDev/doc/blob/master/english/policy/abusing_en.md)
 
-To inquire about regarding technical whitepaper or operation policy, please email to info@getliter.com
+To inquire regarding technical whitepaper or operation policy, please email to info@getliter.com
